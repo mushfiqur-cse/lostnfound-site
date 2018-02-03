@@ -1,0 +1,113 @@
+body{
+  margin: 0 auto;
+}
+#bodycontent{
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color:#FFF;
+  width: 100%;
+  height: 500px;
+  background-color:#366;
+  text-align: center;
+}
+#bodycontent #left{
+  width: 45%;
+  height: 100%;
+  float: left;
+}
+#left #img{
+  width: 70%;
+  height: 80%;
+  text-align: center;
+  padding-top: 15%;
+}
+#bodycontent #right{
+  width: 55%;
+  height: 100%;
+  float: right;
+}
+
+h2{
+	color:#FFF;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+	font-size:40px;
+	font-weight:bolder;
+	margin-bottom: 15px;
+	}
+form{
+  margin: 5px auto;
+  width: 45%;
+  color: steelblue;
+}
+
+input{
+  padding: 8px;
+  font-size: inherit;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+input[type="text"]{
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 2px solid #066;
+  background: #FAF6D9;
+}
+
+#pass{
+  display: block;
+  margin-bottom: 0px;
+  width: 100%;
+  border: 2px solid #066;
+  background: #FAF6D9;
+}
+
+
+#sbtn{
+  width: 100%;
+  height: 40px;
+  border: none;
+  background:#0C9;
+  color: white;
+  border-radius:7px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+#sbtn:focus {
+  width: 100%;
+  height: 40px;
+  border: #0C6;
+  background: #0C9;
+  color: white;
+  border-radius:7px;
+}
+#sbtn:hover{
+  background: #0C6;
+}
+#btn{
+  width: 100%;
+  height: 40px;
+  border: none;
+  background: #7da7ca;
+  color: white;
+  cursor: pointer;
+  border-radius: 7px;
+  margin-top: 0px;
+}
+#btn:focus {
+  width: 100%;
+  height: 40px;
+  border: steelblue;
+  background: #7da7ca;
+  color: white;
+}
+#btn:hover{
+  background: steelblue;
+}
+
+input:focus{
+  background: white;
+}
+.val_error{
+  color: red;
+}

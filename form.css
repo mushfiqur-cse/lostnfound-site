@@ -1,0 +1,112 @@
+body{
+  margin: 0 auto;
+  background: white;
+  width: 100%;
+  height: 100%;
+}
+#bodycontent{
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color:#FFF;
+  width: 100%;
+  height: 650px;
+  background-color:#366;
+  text-align: center;
+}
+#bodycontent #left{
+  width: 45%;
+  height: 100%;
+  float: left;
+}
+#left #img{
+  width: 70%;
+  height: 80%;
+  text-align: center;
+  padding-top: 15%;
+}
+#bodycontent #right{
+  width: 55%;
+  height: 100%;
+  float: right;
+}
+
+h2
+{
+  text-align: center;
+  font-size: 40px;
+  color:#FFF;
+}
+form{
+  margin: 10px auto;
+  width: 45%;
+  color:#CCC;
+}
+input{
+  padding: 8px;
+  font-size: inherit;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+input[type="text"]{
+  display: block;
+  margin-bottom: 0px;
+  width: 100%;
+  border: 2px solid #066;
+  background: #FAF6D9;
+}
+input[type="email"]{
+  display: block;
+  margin-bottom: 0px;
+  width: 100%;
+  border: 2px solid #066;
+  background: #FAF6D9;
+}
+input[type="password"]{
+  display: block;
+  margin-bottom: 0px;
+  width: 100%;
+  border: 2px solid #066;
+  background: #FAF6D9;
+}
+input[type="radio"]{
+  /*margin: 0 8px 25px 18px;*/
+  margin-bottom: 0px;
+  margin-top: 0;
+  margin-right: 8px;
+  margin-left: 18px;
+}
+input[type="radio"]: first-child {
+  margin-left: 0px;
+}
+input[type="submit"]{
+  width: 100%;
+  height: 40px;
+  border: none;
+  background: #7da7ca;
+  color: white;
+  border-radius: 7px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:focus {
+  width: 100%;
+  height: 40px;
+  border: steelblue;
+  background: #7da7ca;
+  color: white;
+  border-radius:7px;
+}
+input[type="submit"]:hover{
+  background: steelblue;
+} 
+
+input:focus{
+  background: white;
+}
+input[type="radio"]: checked + label{
+  font-weight: bold;
+  font-size: 18px;
+}
+.val_error{
+  color: red;
+}

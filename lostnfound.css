@@ -1,0 +1,48 @@
+.pagination{
+  margin-top: 25px;
+}
+.pagination a {
+    color: black;
+    float: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+
+
+
+body{
+  margin: 0 auto;
+  background: white;
+  width: 100%;
+  height: 100%;
+}
+#bodycontent{
+  width: 100%;
+  height: 500px;
+  background-color:white;
+  text-align: center;
+}
+#bodycontent #btable{
+  border-collapse: collapse;
+  width: 80%;	
+  text-align: center;
+  font-size: 18px;
+  padding-top: 5px;
+  padding-left: 20px;
+  line-height: 30px;
+}
+
+#bodycontent #btable tr:nth-child(even){background-color: #f2f2f2}
+
+#bodycontent #btable th {
+    background-color: #4CAF50;
+    color: white;
+}

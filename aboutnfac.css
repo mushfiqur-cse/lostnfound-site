@@ -1,0 +1,27 @@
+body{
+  margin: 0 auto;
+  background: white;
+  width: 100%;
+  height: 100%;
+}
+#bodycontent{
+  width: 100%;
+  height: 500px;
+  background-color:#366;
+  text-align: center;
+}
+#bodycontent #leftbody{
+  width: 45%;
+  height: 100%;
+  float: left;
+}
+#leftbody #img{
+  width: 80%;
+  height: 60%;
+}
+#bodycontent #rightbody{
+  width: 55%;
+  height: 100%;
+  float: right;
+  color:#FFF; 
+}

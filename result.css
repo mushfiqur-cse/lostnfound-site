@@ -1,0 +1,28 @@
+body{
+  margin: 0 auto;
+  background: white;
+  width: 100%;
+  height: 100%;
+}
+#bodycontent{
+  width: 100%;
+  height: 700px;
+  background-color: #366;
+  text-align: center;
+}
+iframe{
+  border: 0px;
+  
+}
+#bodycontent #left{
+  background: #366;
+  float: left;
+  width: 45%;
+  height: 100%;
+}
+#bodycontent #right{
+  background: #366;
+  float: right;
+  width: 45%;
+  height: 100%;
+}
